@@ -5,15 +5,15 @@ variable "project_id" {
 
 variable "region" {
   description = "GCP Region"
-  default     = "us-central1"
+  default     = ""
 }
 
 variable "zone" {
   description = "GCP Zone"
-  default     = "us-central1-a"
+  default     = ""
 }
 
 variable "machine_type" {
   description = "GCP Machine_type"
-  default     = "e2-medium"
+  default     = ""
 }
