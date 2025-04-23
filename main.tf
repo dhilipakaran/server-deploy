@@ -18,6 +18,7 @@ resource "google_compute_instance" "vm_instance" {
     #!/bin/bash
     sudo apt update
     sudo apt install -y apache2
+    sudo apt install -y nginx
     sudo systemctl start apache2
     sudo systemctl enable apache2
   EOF
